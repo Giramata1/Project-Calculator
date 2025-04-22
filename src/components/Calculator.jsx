@@ -43,7 +43,7 @@ const Calculator = () => {
     
       <div className="  p-10 rounded-3xl shadow-2xl w-full max-w-lg opacity-100">
         <h2 className="text-5xl font-extrabold text-center text-white mb-12">
-          🧮 <span className="text-indigo-400">Calculator</span>
+          📱 <span className="text-indigo-400">Calculator</span>
         </h2>
 
         
@@ -94,7 +94,7 @@ const Calculator = () => {
             type="submit"
             className="w-60 bg-slate-600 text-white font-mono py-4 rounded-lg shadow-lg"
           >
-            🚀 CALCULATE
+           📱 CALCULATE
           </button>
         </form>
       </div>
