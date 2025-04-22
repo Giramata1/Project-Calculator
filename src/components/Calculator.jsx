@@ -52,9 +52,9 @@ const Calculator = () => {
          
     
           {error ? (
-            <span className="text-red-500">⚠️ {error}</span>
+            <span className="text-red-500">❓ {error}</span>
           ) : result !== null ? (
-            <span className="text-green-400">✅ {result}</span>
+            <span className="text-green-400">✔️ {result}</span>
           ) : (
             <span className="text-gray-500">0</span>
           )}
